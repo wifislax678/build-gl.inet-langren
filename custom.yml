@@ -6,6 +6,9 @@ feeds:
     branch: main
 packages:
   - luci-app-ssr-plus
+  - luci-compat
+  - luci-lib-ipkg
+  - luci-app-ttyd
   #- luci-app-ddns
   #- ddns-scripts
   #- ddns-scripts-services
