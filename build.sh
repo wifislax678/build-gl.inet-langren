@@ -15,7 +15,7 @@ else
 fi
 
 if [ ! -n "$profile" ]; then
-	profile=target_wlan_ap-gl-ax1800
+	profile=target_wlan_ap-gl-axt1800
 fi
 
 if [ ! -n "$ui" ]; then
