@@ -2,8 +2,13 @@ feeds:
   - name: custom
     path: ../feeds_dir/custom
   - name: chajian
-    uri: https://github.com/NueXini/NueXini_Packages.git
-    branch: main
+  #  uri: https://github.com/NueXini/NueXini_Packages.git
+    uri: https://github.com/kenzok8/openwrt-packages.git
+    branch: master
+  - name: small
+    uri: https://github.com/kenzok8/small.git
+    branch: master
+
 packages:
   - luci-app-ssr-plus
   - luci-compat
