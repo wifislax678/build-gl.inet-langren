@@ -2,7 +2,6 @@ feeds:
   - name: custom
     path: ../feeds_dir/custom
   - name: chajian
-  #  uri: https://github.com/NueXini/NueXini_Packages.git
     uri: https://github.com/kenzok8/openwrt-packages.git
     branch: master
   - name: small
