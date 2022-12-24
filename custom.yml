@@ -2,11 +2,8 @@ feeds:
   - name: custom
     path: ../feeds_dir/custom
   - name: chajian
-    uri: https://github.com/kenzok8/openwrt-packages.git
-    branch: master
-  - name: small
-    uri: https://github.com/kenzok8/small.git
-    branch: master
+    uri: https://github.com/kenzok8/small-package.git
+    branch: main
 
 packages:
   - luci-app-ssr-plus
