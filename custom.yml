@@ -10,7 +10,6 @@ packages:
   - luci-compat
   - luci-lib-ipkg
   - luci-app-ttyd
-  - luci-app-vssr
   #- luci-app-ddns
   #- ddns-scripts
   #- ddns-scripts-services
