@@ -10,28 +10,28 @@ packages:
   - luci-compat
   - luci-lib-ipkg
   - luci-app-ttyd
-  - luci-app-vssr
-  - luci-app-ddns
-  - ddns-scripts
-  - ddns-scripts-services
-  - ddns-scripts_aliyun
-  - luci-app-uhttpd
+ # - luci-app-vssr
+ # - luci-app-ddns
+ # - ddns-scripts
+ # - ddns-scripts-services
+ # - ddns-scripts_aliyun
+ # - luci-app-uhttpd
   - dnsmasq-full
-  - luci-app-commands
-  - luci-app-mwan3
-  - luci-app-wireguard
-  - wireguard
+ # - luci-app-commands
+#  - luci-app-mwan3
+ # - luci-app-wireguard
+ # - wireguard
   - luci-app-passwall
   #- luci-app-eqos
-  - wireguard-tools
+ # - wireguard-tools
 
 
 
 diffconfig: |
-  CONFIG_PACKAGE_wpad-basic=n
-  CONFIG_PACKAGE_wpad=n
+ # CONFIG_PACKAGE_wpad-basic=n
+ # CONFIG_PACKAGE_wpad=n
   CONFIG_PACKAGE_dnsmasq=n
-  CONFIG_PACKAGE_luci-i18n-ddns-zh-cn=y
-  CONFIG_LUCI_LANG_zh_Hans=y
+ # CONFIG_PACKAGE_luci-i18n-ddns-zh-cn=y
+ # CONFIG_LUCI_LANG_zh_Hans=y
   CONFIG_BUSYBOX_CUSTOM=y
   CONFIG_BUSYBOX_CONFIG_FEATURE_FLOAT_SLEEP=y
